@@ -12,6 +12,7 @@ import {
 import Home from "./page/Home.jsx";
 import About from "./page/About.jsx";
 import Service from "./page/Service.jsx";
+import TeamMember from "./page/TeamMember.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/service",
         element: <Service/>,
+      },
+      {
+        path: "/team",
+        element: <TeamMember/>,
       } 
     ] 
   },
