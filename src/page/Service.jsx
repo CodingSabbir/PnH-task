@@ -4,7 +4,7 @@ import ServiceProduct from '../components/ServiceProduct';
 
 const Service = () => {
     return (
-        <div className='bg-[#EDF5FF] py-20'>
+        <div className='bg-[#EDF5FF] pt-20'>
               <div className='text-center pb-16'>
         <h1 className='text-2xl text-[#FF6500]'>Services</h1>
         <h3 className='text-3xl font-semibold'>We provide best service for you customers</h3>
