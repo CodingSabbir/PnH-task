@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
             
-<div class="py-5">
+<div class="pt-16">
   <div class="container m-auto p-6  ">
         <div className='text-center pb-16'>
         <h1 className='text-2xl text-[#FF6500]'>About Us</h1>

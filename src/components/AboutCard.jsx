@@ -1,12 +1,13 @@
 import React from 'react';
 import { IoCheckmarkSharp } from "react-icons/io5";
+import about1Img from '../assets/img/1.png'
 const AboutCard = () => {
     return (
         <div>
            
 
 
-<section class=" bg-blueGray-200 -mt-24">
+<section class=" bg-blueGray-200  py-10">
   <div >
     <div class="flex flex-wrap">
       <div class="lg:pt-12 pt-6 w-full md:w-4/12 text-center">
@@ -19,8 +20,8 @@ const AboutCard = () => {
     <div class="flex flex-wrap items-center mt-16">
      
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-2 shadow-lg rounded-lg bg-pink-500">
-          <img alt="..." src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80" class="w-full align-middle rounded-t-lg"/>
+        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-2  rounded-lg ">
+          <img alt="..." src={about1Img}/>
           <blockquote class="relative p-8 mb-4">
           <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block h-95-px -top-94-px">
                     <polygon points="-30,95 583,95 583,65" class="text-pink-500 fill-current"></polygon>
