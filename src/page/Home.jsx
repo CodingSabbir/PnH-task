@@ -5,6 +5,8 @@ import About from './About';
 import Service from './Service';
 import TeamMember from './TeamMember';
 
+
+
 function Home() {
   return (
    <div>
@@ -12,6 +14,7 @@ function Home() {
     <About/>
     <Service/>
     <TeamMember/>
+    
    </div>
   );
 }

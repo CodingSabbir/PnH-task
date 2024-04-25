@@ -14,6 +14,7 @@ import About from "./page/About.jsx";
 import Service from "./page/Service.jsx";
 import TeamMember from "./page/TeamMember.jsx";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,7 +35,8 @@ const router = createBrowserRouter([
       {
         path: "/team",
         element: <TeamMember/>,
-      } 
+      },
+    
     ] 
   },
 

@@ -2,7 +2,9 @@ import React from 'react';
 
 const TeamProfileCard = ({img,name,position,github,Linkedin,twitter}) => {
     return (
+        
         <div>
+            
             <header class="px-2 py-4 mt-16  flex flex-col justify-center items-center text-center">
   <img class="inline-flex object-cover border-4 border-[#15F5BA] rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)]  bg-indigo-50 text-[#15F5BA] h-24 w-24 !h-48 !w-48" src={img} alt=""/>
   <h2 class="text-base md:text-xl text-gray-500 font-bold py-2">
